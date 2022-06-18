@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ITMDA_group4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cart">Cart</string>
+    <string name="store">Store</string>
+    <string name="account">Account</string>
 </resources>
