@@ -2625,6 +2625,7 @@ id action_context_bar
 id action_divider
 id action_image
 id action_loginFragment2_to_navigationFragment2
+id action_loginFragment2_to_registerFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -2937,6 +2938,7 @@ id ratio
 id rectangles
 id register
 id registerFragment
+id register_btn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3035,6 +3037,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

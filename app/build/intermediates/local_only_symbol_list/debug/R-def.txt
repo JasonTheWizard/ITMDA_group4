@@ -13,6 +13,7 @@ id account
 id accountFragment
 id action_cartFragment_to_paymentFragment
 id action_loginFragment2_to_navigationFragment2
+id action_loginFragment2_to_registerFragment
 id action_navigationFragment2_to_accountFragment
 id action_navigationFragment2_to_cartFragment
 id action_navigationFragment2_to_storeFragment
@@ -34,8 +35,10 @@ id pay_now
 id paymentFragment
 id register
 id registerFragment
+id register_btn
 id shop
 id storeFragment
+id textView
 layout activity_main
 layout fragment_account
 layout fragment_cart

@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 
@@ -29,9 +30,7 @@ class RegisterFragment : Fragment(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v!!.id){
-            R.id.register -> {
-                navController!!.navigate(R.id.action_registerFragment_to_loginFragment2)
-            }
+            R.id.register -> navController!!.navigate(R.id.action_registerFragment_to_loginFragment2)
         }
     }
 }

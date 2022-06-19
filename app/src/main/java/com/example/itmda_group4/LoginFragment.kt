@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 
@@ -25,13 +26,13 @@ class LoginFragment : Fragment(), View.OnClickListener {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(view)
         view.findViewById<Button>(R.id.login).setOnClickListener(this)
+        view.findViewById<TextView>(R.id.register_btn).setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         when(v!!.id){
-            R.id.login -> {
-                navController!!.navigate(R.id.action_loginFragment2_to_navigationFragment2)
+            R.id.login -> navController!!.navigate(R.id.action_loginFragment2_to_navigationFragment2)
+            R.id.register_btn -> navController!!.navigate(R.id.action_loginFragment2_to_registerFragment)
             }
         }
-    }
 }
