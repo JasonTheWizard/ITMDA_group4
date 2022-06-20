@@ -7,8 +7,12 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable account
+drawable bgimage
+drawable cart
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable shop
 id account
 id accountFragment
 id action_cartFragment_to_paymentFragment
@@ -24,6 +28,9 @@ id cart
 id cartFragment
 id checkout
 id checkoutFragment
+id imageShop
+id imageView5
+id imageView6
 id login
 id loginFragment2
 id nav_graph
@@ -36,6 +43,7 @@ id register
 id registerFragment
 id shop
 id storeFragment
+id textView
 layout activity_main
 layout fragment_account
 layout fragment_cart
