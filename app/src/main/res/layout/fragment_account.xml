@@ -17,13 +17,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="99dp"
-        android:layout_marginTop="199dp"
-        android:layout_marginEnd="102dp"
-        android:layout_marginBottom="487dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="372dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name" />
@@ -33,29 +31,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="99dp"
-        android:layout_marginTop="284dp"
-        android:layout_marginEnd="103dp"
-        android:layout_marginBottom="402dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="306dp"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:text="Email" />
 
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="232dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Phone Number" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="157dp"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="99dp"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="103dp"
-        android:layout_marginBottom="308dp"
-        android:ems="10"
-        android:inputType="phone" />
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="453dp"
+        android:src="@drawable/account" />
 
 </RelativeLayout>
