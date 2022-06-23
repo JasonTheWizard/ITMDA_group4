@@ -68,7 +68,11 @@
         android:id="@+id/storeFragment"
         android:name="com.example.itmda_group4.StoreFragment"
         android:label="fragment_store"
-        tools:layout="@layout/fragment_store" />
+        tools:layout="@layout/fragment_store" >
+        <action
+            android:id="@+id/action_storeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
     <fragment
         android:id="@+id/checkoutFragment"
         android:name="com.example.itmda_group4.CheckoutFragment"

@@ -9,6 +9,7 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo
 id account
 id accountFragment
 id action_cartFragment_to_paymentFragment
@@ -19,6 +20,7 @@ id action_navigationFragment2_to_cartFragment
 id action_navigationFragment2_to_storeFragment
 id action_paymentFragment_to_checkoutFragment
 id action_registerFragment_to_loginFragment2
+id action_storeFragment_to_cartFragment
 id add_cart
 id cancel
 id cart
