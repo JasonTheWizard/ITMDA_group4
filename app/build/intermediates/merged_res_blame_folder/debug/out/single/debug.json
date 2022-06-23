@@ -4,52 +4,32 @@
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\fragment_account.xml"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-anydpi_cart.xml.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-anydpi/cart.xml"
-    },
-    {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-hdpi_cart.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-hdpi/cart.png"
-    },
-    {
-        "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\layout_fragment_register.xml.flat",
-        "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\fragment_register.xml"
+        "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\xml\\data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\fragment_register.xml"
     },
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-anydpi_account.xml.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-anydpi/account.xml"
-    },
-    {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-mdpi_account.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-mdpi/account.png"
-    },
-    {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\layout_fragment_navigation.xml.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\fragment_navigation.xml"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-xxhdpi_cart.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-xxhdpi/cart.png"
-    },
-    {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-xxhdpi_account.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-xxhdpi/account.png"
-    },
-    {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\drawable_bgimage.jpg.flat",
+        "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\drawable\\bgimage.jpg"
     },
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -76,16 +56,8 @@
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\fragment_cart.xml"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable_bgimage.jpg.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable/bgimage.jpg"
-    },
-    {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\layout_fragment_checkout.xml.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\fragment_checkout.xml"
-    },
-    {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-xhdpi_cart.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-xhdpi/cart.png"
     },
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\layout_fragment_login.xml.flat",
@@ -100,12 +72,16 @@
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\drawable_shop.png.flat",
+        "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\drawable\\shop.png"
+    },
+    {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-xhdpi_account.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-xhdpi/account.png"
+        "merged": "com.example.itmda_group4.app-merged_res-37:/layout_fragment_account.xml.flat",
+        "source": "com.example.itmda_group4.app-main-39:/layout/fragment_account.xml"
     },
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -116,24 +92,12 @@
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable_shop.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable/shop.png"
-    },
-    {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/layout_fragment_navigation.xml.flat",
-        "source": "com.example.itmda_group4.app-main-39:/layout/fragment_navigation.xml"
-    },
-    {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-mdpi_cart.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-mdpi/cart.png"
     },
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\drawable_ic_launcher_background.xml.flat",
@@ -142,10 +106,6 @@
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\layout_fragment_store.xml.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-39:\\layout\\fragment_store.xml"
-    },
-    {
-        "merged": "com.example.itmda_group4.app-merged_res-37:/drawable-hdpi_account.png.flat",
-        "source": "com.example.itmda_group4.app-main-39:/drawable-hdpi/account.png"
     },
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",

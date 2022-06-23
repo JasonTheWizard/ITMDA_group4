@@ -7,9 +7,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
-drawable account
 drawable bgimage
-drawable cart
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable shop
@@ -28,6 +26,9 @@ id cart
 id cartFragment
 id checkout
 id checkoutFragment
+id editTextPhone
+id editTextTextEmailAddress
+id editTextTextPersonName
 id imageShop
 id imageView5
 id imageView6
