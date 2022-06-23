@@ -10,8 +10,12 @@
     <string name="account">Account</string>
     <string name="app_name">ITMDA_group4</string>
     <string name="cart">Cart</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="email">email</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">password</string>
     <string name="store">Store</string>
+    <string name="username">username</string>
     <style name="Theme.ITMDA_group4" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

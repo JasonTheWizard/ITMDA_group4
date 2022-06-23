@@ -5,4 +5,8 @@
     <string name="cart">Cart</string>
     <string name="store">Store</string>
     <string name="account">Account</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="confirm_password">confirm password</string>
 </resources>
