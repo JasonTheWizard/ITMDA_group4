@@ -24,8 +24,8 @@
         android:id="@+id/cancel"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
         android:layout_marginRight="30dp"
         android:text="cancel" />
 
