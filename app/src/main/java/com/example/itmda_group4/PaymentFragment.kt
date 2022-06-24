@@ -5,9 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import androidx.navigation.NavController
-import androidx.navigation.Navigation
 
 class PaymentFragment : Fragment(){
     override fun onCreateView(

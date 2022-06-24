@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.itmda_group4.app-mergeDebugResources-40:/values-v28/values-v28.xml",
+            "outputFile": "com.example.itmda_group4.app-mergeDebugResources-29:/values-v28/values-v28.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Regan\\.gradle\\caches\\transforms-3\\830852c382921b72aab3470490e4ce24\\transformed\\material-1.6.1\\res\\values-v28\\values-v28.xml",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Regan\\.gradle\\caches\\transforms-3\\1864f428637a3ac4a32e86f08fb27399\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Regan\\.gradle\\caches\\transforms-3\\516a978623d3874b7637ecb354712b4e\\transformed\\appcompat-1.4.2\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

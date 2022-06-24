@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,24 +16,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Shop page"
-        android:layout_marginBottom="380dp"
-        android:layout_gravity="center|bottom"/>
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center|top"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cart page"
-        android:layout_marginBottom="280dp"
-        android:layout_gravity="center|bottom"/>
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center|top"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Account page"
-        android:layout_marginBottom="180dp"
-        android:layout_gravity="center|bottom"/>
+        android:layout_marginTop="380dp"
+        android:layout_gravity="center|top"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_log_out"

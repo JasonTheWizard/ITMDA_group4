@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.itmda_group4.app-mergeDebugResources-40:/values-v23/values-v23.xml",
+            "outputFile": "com.example.itmda_group4.app-mergeDebugResources-29:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Regan\\.gradle\\caches\\transforms-3\\1864f428637a3ac4a32e86f08fb27399\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Regan\\.gradle\\caches\\transforms-3\\516a978623d3874b7637ecb354712b4e\\transformed\\appcompat-1.4.2\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
