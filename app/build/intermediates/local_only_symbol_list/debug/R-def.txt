@@ -26,7 +26,9 @@ id btn_register_reg
 id btn_shop
 id btn_shop_back
 id cancel
+id checkout
 id container
+id continue_shopping
 id log_email
 id log_password
 id parentLayout

@@ -62,3 +62,6 @@ class StoreFragment : Fragment() {
         return view
     }
 }
+
+
+

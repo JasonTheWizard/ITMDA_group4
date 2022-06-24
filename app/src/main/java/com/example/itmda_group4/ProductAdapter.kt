@@ -36,3 +36,4 @@ class ProductAdapter(private var productList:MutableList<Product>):RecyclerView.
     }
 
 }
+

@@ -7,9 +7,37 @@
     tools:context=".AccountFragment">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="account page" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account page"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:layout_gravity="top|left"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_gravity="top|left"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="260dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_gravity="top|left"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="320dp"
+        android:textSize="20dp"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_shop_back"

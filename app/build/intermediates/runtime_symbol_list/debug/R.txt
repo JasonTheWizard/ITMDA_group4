@@ -2693,6 +2693,7 @@ int id chain2 0x7f08007f
 int id chains 0x7f080080
 int id checkbox 0x7f080081
 int id checked 0x7f080082
+int id checkout 0x7f080206
 int id chip 0x7f080083
 int id chip1 0x7f080084
 int id chip2 0x7f080085
@@ -2713,6 +2714,7 @@ int id container 0x7f080093
 int id content 0x7f080094
 int id contentPanel 0x7f080095
 int id contiguous 0x7f080096
+int id continue_shopping 0x7f080207
 int id continuousVelocity 0x7f080097
 int id coordinator 0x7f080098
 int id cos 0x7f080099

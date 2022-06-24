@@ -7,9 +7,28 @@
     tools:context=".CartFragment">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="cart page" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart page"
+        android:layout_gravity="center|top"
+        android:textSize="50dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continue_shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue Shopping"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center|left"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center|right"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_cart_back"
