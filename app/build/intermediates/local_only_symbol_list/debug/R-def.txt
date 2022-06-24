@@ -63,9 +63,16 @@ string account
 string app_name
 string cart
 string confirm_password
+string default_web_client_id
 string email
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string password
+string project_id
 string store
 string username
 style Theme.ITMDA_group4

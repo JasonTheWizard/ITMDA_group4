@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285910501916",
+    "project_id": "itmda-group4-2c6b7",
+    "storage_bucket": "itmda-group4-2c6b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285910501916:android:7e411de6f1a454d3d4add9",
+        "android_client_info": {
+          "package_name": "com.example.itmda_group4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285910501916-rnngkaovcuhfqm5d398run34787k5ll6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPNT1Mf9dl7xyeQ0etSVQaCpu-z21usEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285910501916-rnngkaovcuhfqm5d398run34787k5ll6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

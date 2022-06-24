@@ -12,10 +12,14 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class LoginFragment : Fragment() {
     private lateinit var email: EditText
     private lateinit var password: EditText
+    private lateinit var fAuth: FirebaseAuth
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -26,6 +30,7 @@ class LoginFragment : Fragment() {
 
         email = view.findViewById(R.id.log_email)
         password = view.findViewById(R.id.log_password)
+        fAuth = Firebase.auth
 
         view.findViewById<Button>(R.id.btn_register).setOnClickListener{
             var navRegister = activity as FragmentNavigation
@@ -37,6 +42,19 @@ class LoginFragment : Fragment() {
         }
         return view
     }
+    private fun firebaseSignIn(){
+        fAuth.signInWithEmailAndPassword(email.text.toString(),
+            password.text.toString()).addOnCompleteListener{
+                task ->
+                if(task.isSuccessful){
+                    var navHome = activity as FragmentNavigation
+                    navHome.navigateFrag(NavigationFragment(), addToStack = true)
+                }else{
+                    Toast.makeText(context,task.exception?.message,Toast.LENGTH_SHORT).show()
+                }
+        }
+    }
+
     private fun validateForm(){
         when{
             TextUtils.isEmpty(email.text.toString().trim())->{
@@ -49,8 +67,7 @@ class LoginFragment : Fragment() {
                     password.toString().isNotEmpty() ->
             {
                 if (email.text.toString().matches(Regex("[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"))){
-                    Toast.makeText(context,"Successfull login",Toast.LENGTH_SHORT).show()
-
+                    firebaseSignIn()
                 }else{
                     email.setError("Please enter valid email")
                 }
