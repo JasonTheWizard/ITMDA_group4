@@ -9,31 +9,17 @@ import android.widget.Button
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 
-class CartFragment : Fragment(), View.OnClickListener {
-
-    var navController: NavController? = null
-
+class CartFragment : Fragment(){
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cart, container, false)
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        navController = Navigation.findNavController(view)
-        view.findViewById<Button>(R.id.checkout).setOnClickListener(this)
-        view.findViewById<Button>(R.id.cancel).setOnClickListener(this)
-    }
-
-    override fun onClick(v: View?) {
-        when(v!!.id){
-            R.id.checkout -> {
-                navController!!.navigate(R.id.action_cartFragment_to_paymentFragment)
-            }
-            R.id.cancel -> activity!!.onBackPressed()
+        var view = inflater.inflate(R.layout.fragment_cart, container, false)
+        view.findViewById<Button>(R.id.btn_cart_back).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(NavigationFragment(),false)
         }
+        return view
     }
 }

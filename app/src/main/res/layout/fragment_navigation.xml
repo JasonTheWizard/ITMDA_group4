@@ -8,6 +8,35 @@
     tools:context=".NavigationFragment"
     android:id="@+id/parentLayout">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop page"
+        android:layout_marginBottom="380dp"
+        android:layout_gravity="center|bottom"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart page"
+        android:layout_marginBottom="280dp"
+        android:layout_gravity="center|bottom"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account page"
+        android:layout_marginBottom="180dp"
+        android:layout_gravity="center|bottom"/>
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_log_out"
         android:layout_width="wrap_content"

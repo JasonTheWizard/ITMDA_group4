@@ -18,6 +18,18 @@ class NavigationFragment : Fragment(){
     ): View? {
         // Inflate the layout for this fragment
         var view = inflater.inflate(R.layout.fragment_navigation, container, false)
+        view.findViewById<Button>(R.id.btn_shop).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(StoreFragment(),false)
+        }
+        view.findViewById<Button>(R.id.btn_cart).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(CartFragment(),false)
+        }
+        view.findViewById<Button>(R.id.btn_account).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(AccountFragment(),false)
+        }
         view.findViewById<Button>(R.id.btn_log_out).setOnClickListener{
             Firebase.auth.signOut()
             var navLogin = activity as FragmentNavigation

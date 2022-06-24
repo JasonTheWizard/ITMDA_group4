@@ -2721,11 +2721,16 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_account
+id btn_cart
+id btn_cart_back
 id btn_log_out
 id btn_login
 id btn_login_reg
 id btn_register
 id btn_register_reg
+id btn_shop
+id btn_shop_back
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2743,7 +2748,6 @@ id chain2
 id chains
 id checkbox
 id checked
-id checkout
 id checkoutFragment
 id chip
 id chip1
