@@ -2652,7 +2652,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id account
 id accountFragment
 id actionDown
 id actionDownUp
@@ -2722,6 +2721,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_log_out
 id btn_login
 id btn_login_reg
 id btn_register
@@ -2732,7 +2732,6 @@ id callMeasure
 id cancel
 id cancel_button
 id carryVelocity
-id cart
 id cartFragment
 id center
 id centerCrop
@@ -3034,7 +3033,6 @@ id selected
 id selection_type
 id sharedValueSet
 id sharedValueUnset
-id shop
 id shortcut
 id showCustom
 id showHome

@@ -46,19 +46,19 @@ class LoginFragment : Fragment() {
         fAuth.signInWithEmailAndPassword(email.text.toString(),
             password.text.toString()).addOnCompleteListener{
                 task ->
-                if(task.isSuccessful){
-                    var navHome = activity as FragmentNavigation
-                    navHome.navigateFrag(NavigationFragment(), addToStack = true)
-                }else{
-                    Toast.makeText(context,task.exception?.message,Toast.LENGTH_SHORT).show()
-                }
+            if(task.isSuccessful){
+                var navHome = activity as FragmentNavigation
+                navHome.navigateFrag(NavigationFragment(), addToStack = true)
+            }else{
+                Toast.makeText(context,task.exception?.message,Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
     private fun validateForm(){
         when{
             TextUtils.isEmpty(email.text.toString().trim())->{
-                email.setError("Please enter username")
+                email.setError("Please enter email")
             }
             TextUtils.isEmpty(password.text.toString().trim())->{
                 password.setError("Please enter password")

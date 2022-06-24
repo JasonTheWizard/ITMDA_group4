@@ -47,7 +47,7 @@ class RegisterFragment : Fragment() {
     }
     private fun firebaseSignUp(){
         fAuth.createUserWithEmailAndPassword(email.text.toString(),
-            password.toString()).addOnCompleteListener{
+            password.text.toString()).addOnCompleteListener{
             task ->
             if(task.isSuccessful){
                 var navHome = activity as FragmentNavigation

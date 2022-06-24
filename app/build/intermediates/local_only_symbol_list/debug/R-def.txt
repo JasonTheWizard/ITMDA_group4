@@ -10,7 +10,6 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
-id account
 id accountFragment
 id action_cartFragment_to_paymentFragment
 id action_loginFragment2_to_navigationFragment2
@@ -22,12 +21,12 @@ id action_paymentFragment_to_checkoutFragment
 id action_registerFragment_to_loginFragment2
 id action_storeFragment_to_cartFragment
 id add_cart
+id btn_log_out
 id btn_login
 id btn_login_reg
 id btn_register
 id btn_register_reg
 id cancel
-id cart
 id cartFragment
 id checkout
 id checkoutFragment
@@ -45,7 +44,6 @@ id reg_email
 id reg_password
 id reg_username
 id registerFragment
-id shop
 id storeFragment
 layout activity_main
 layout fragment_account
