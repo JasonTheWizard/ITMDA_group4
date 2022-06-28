@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,33 +10,150 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cart page"
         android:layout_gravity="center|top"
-        android:textSize="50dp"/>
+        android:text="Cart"
+        android:textSize="50dp" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/continue_shopping"
+
+    <Button
+        android:id="@+id/add_bread"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Continue Shopping"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="10dp"
-        android:layout_gravity="center|left"/>
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add Bread" />
+
+    <TextView
+        android:id="@+id/increment_bread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="100dp"
+        android:text="0"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/remove_bread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="220dp"
+        android:text="Remove Bread" />
+
+    <Button
+        android:id="@+id/add_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add Cheese" />
+
+    <TextView
+        android:id="@+id/increment_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="175dp"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/remove_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="220dp"
+        android:text="Remove Cheese" />
+
+    <Button
+        android:id="@+id/add_eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add Eggs" />
+
+    <TextView
+        android:id="@+id/increment_eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="175dp"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/remove_eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="220dp"
+        android:text="Remove Eggs" />
+
+    <Button
+        android:id="@+id/add_ham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add Ham" />
+
+    <TextView
+        android:id="@+id/increment_ham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="175dp"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/remove_ham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="220dp"
+        android:text="Remove Ham" />
+
+    <Button
+        android:id="@+id/add_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add Milk" />
+
+    <TextView
+        android:id="@+id/increment_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="420dp"
+        android:text="0"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/remove_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="220dp"
+        android:text="Remove Milk" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/checkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Checkout"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="20dp"
-        android:layout_gravity="center|right"/>
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="640dp"
+        android:text="Checkout" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_cart_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center|bottom"/>
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="640dp"
+        android:text="back" />
 
-</FrameLayout>
+</RelativeLayout>

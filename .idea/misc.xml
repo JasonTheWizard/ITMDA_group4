@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Bobby/AndroidStudioProjects/ITMDA_group4/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2735" />
+        <entry key="..\:/Users/Bobby/AndroidStudioProjects/ITMDA_group4/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Bobby/AndroidStudioProjects/ITMDA_group4/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/Users/Bobby/AndroidStudioProjects/ITMDA_group4/app/src/main/res/layout/fragment_checkout.xml" value="0.33" />
+        <entry key="..\:/Users/Bobby/AndroidStudioProjects/ITMDA_group4/app/src/main/res/layout/fragment_register.xml" value="0.265625" />
+        <entry key="..\:/Users/Bobby/AndroidStudioProjects/ITMDA_group4/app/src/main/res/layout/fragment_store.xml" value="0.2007042253521127" />
+        <entry key="..\:/Users/Bobby/AndroidStudioProjects/ITMDA_group4/app/src/main/res/layout/product_view.xml" value="0.25" />
         <entry key="..\:/Users/Regan/Documents/GitHub/ITMDA_group4/app/src/main/res/layout/activity_main.xml" value="0.29846014492753625" />
         <entry key="..\:/Users/Regan/Documents/GitHub/ITMDA_group4/app/src/main/res/layout/fragment_account.xml" value="0.29393115942028986" />
         <entry key="..\:/Users/Regan/Documents/GitHub/ITMDA_group4/app/src/main/res/layout/fragment_cart.xml" value="0.1707193515704154" />
