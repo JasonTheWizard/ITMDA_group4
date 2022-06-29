@@ -39,4 +39,13 @@
             android:padding="8dp" />
 
     </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btn_store_back"
+        android:text="back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"/>
+
+
 </RelativeLayout>

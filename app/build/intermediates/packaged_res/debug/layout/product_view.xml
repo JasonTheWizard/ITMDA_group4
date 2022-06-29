@@ -43,7 +43,14 @@
                 android:text="product_description"
                 android:textAppearance="?attr/textAppearanceBody2"/>
 
+            <Button
+                android:id="@+id/btn_add_to_cart"
+                android:text="Add to Cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
+
         
     </LinearLayout>
         
