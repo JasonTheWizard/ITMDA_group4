@@ -45,7 +45,16 @@
         android:text="back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="650dp"/>
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/btn_go_to_cart"
+        android:text="Go to cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="250dp"/>
 
 
 </RelativeLayout>

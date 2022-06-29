@@ -26,6 +26,7 @@ id btn_cart
 id btn_cart_back
 id btn_checkout_back
 id btn_checkout_pay
+id btn_go_to_cart
 id btn_log_out
 id btn_login
 id btn_login_reg

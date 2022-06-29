@@ -2685,6 +2685,7 @@ int id btn_cart 0x7f08006f
 int id btn_cart_back 0x7f080070
 int id btn_checkout_back 0x7f08021b
 int id btn_checkout_pay 0x7f08021c
+int id btn_go_to_cart 0x7f080220
 int id btn_log_out 0x7f080071
 int id btn_login 0x7f080072
 int id btn_login_reg 0x7f080073

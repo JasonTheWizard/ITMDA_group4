@@ -64,6 +64,10 @@ class StoreFragment : Fragment() {
             var navRegister = activity as FragmentNavigation
             navRegister.navigateFrag(NavigationFragment(),false)
         }
+        view.findViewById<Button>(R.id.btn_go_to_cart).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(CartFragment(),false)
+        }
 
         return view
     }
