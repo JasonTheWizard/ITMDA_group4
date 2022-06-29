@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
@@ -58,6 +59,11 @@ class StoreFragment : Fragment() {
 
         adapter = ProductAdapter(productList)
         recyclerView?.adapter = adapter
+
+        view.findViewById<Button>(R.id.btn_store_back).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(NavigationFragment(),false)
+        }
 
         return view
     }

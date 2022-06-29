@@ -30,31 +30,6 @@ class MainActivity : AppCompatActivity(), FragmentNavigation {
 
     }
 
-    class MainActivity : AppCompatActivity(){
-        override fun onCreate(savedInstanceState: Bundle?) {
-            super.onCreate(savedInstanceState)
-            setContentView(R.layout.fragment_cart)
-
-            var increment_number = 0;
-
-            add_bread.setOnClickListener{
-
-                increment_number++
-
-                increment_bread.text = increment_number.toString()
-
-            }
-
-            remove_bread.setOnClickListener {
-
-                increment_number--
-
-                increment_bread.text = increment_number.toString()
-            }
-
-        }
-    }
-
     override fun navigateFrag(fragment: Fragment, addToStack: Boolean) {
         val transaction = supportFragmentManager
             .beginTransaction()

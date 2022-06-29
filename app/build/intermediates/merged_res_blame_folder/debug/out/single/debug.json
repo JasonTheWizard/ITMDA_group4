@@ -108,10 +108,6 @@
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-35:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.itmda_group4.app-merged_res-33:/layout_fragment_cart.xml.flat",
-        "source": "com.example.itmda_group4.app-main-35:/layout/fragment_cart.xml"
-    },
-    {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-33:\\layout_fragment_checkout.xml.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-35:\\layout\\fragment_checkout.xml"
     },
@@ -130,5 +126,9 @@
     {
         "merged": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-merged_res-33:\\layout_fragment_store.xml.flat",
         "source": "C:\\Users\\Bobby\\.gradle\\daemon\\7.3.3\\com.example.itmda_group4.app-main-35:\\layout\\fragment_store.xml"
+    },
+    {
+        "merged": "com.example.itmda_group4.app-merged_res-33:/layout_fragment_checkout.xml.flat",
+        "source": "com.example.itmda_group4.app-main-35:/layout/fragment_checkout.xml"
     }
 ]

@@ -21,8 +21,11 @@ id add_eggs
 id add_ham
 id add_milk
 id btn_account
+id btn_add_to_cart
 id btn_cart
 id btn_cart_back
+id btn_checkout_back
+id btn_checkout_pay
 id btn_log_out
 id btn_login
 id btn_login_reg
@@ -30,6 +33,7 @@ id btn_register
 id btn_register_reg
 id btn_shop
 id btn_shop_back
+id btn_store_back
 id cancel
 id checkout
 id container
@@ -56,6 +60,7 @@ id remove_cheese
 id remove_eggs
 id remove_ham
 id remove_milk
+id total
 layout activity_main
 layout fragment_account
 layout fragment_cart

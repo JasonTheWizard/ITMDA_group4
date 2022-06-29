@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.Toast
 
 class CheckoutFragment : Fragment() {
     override fun onCreateView(
@@ -12,6 +14,12 @@ class CheckoutFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_checkout, container, false)
+        var view = inflater.inflate(R.layout.fragment_checkout, container, false)
+        view.findViewById<Button>(R.id.btn_checkout_back).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(CartFragment(),false)
+        }
+
+        return view
     }
 }

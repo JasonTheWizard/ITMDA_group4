@@ -2681,8 +2681,11 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_account
+id btn_add_to_cart
 id btn_cart
 id btn_cart_back
+id btn_checkout_back
+id btn_checkout_pay
 id btn_log_out
 id btn_login
 id btn_login_reg
@@ -2690,6 +2693,7 @@ id btn_register
 id btn_register_reg
 id btn_shop
 id btn_shop_back
+id btn_store_back
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3076,6 +3080,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id total
 id touch_outside
 id transitionToEnd
 id transitionToStart

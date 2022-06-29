@@ -18,6 +18,12 @@ class CartFragment : Fragment(){
             var navRegister = activity as FragmentNavigation
             navRegister.navigateFrag(NavigationFragment(),false)
         }
+        view.findViewById<Button>(R.id.checkout).setOnClickListener{
+            var navRegister = activity as FragmentNavigation
+            navRegister.navigateFrag(CheckoutFragment(),false)
+        }
         return view
+
+
     }
 }

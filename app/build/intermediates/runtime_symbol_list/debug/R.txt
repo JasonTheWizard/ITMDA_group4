@@ -2680,8 +2680,11 @@ int id browser_actions_menu_item_text 0x7f08006b
 int id browser_actions_menu_items 0x7f08006c
 int id browser_actions_menu_view 0x7f08006d
 int id btn_account 0x7f08006e
+int id btn_add_to_cart 0x7f08021f
 int id btn_cart 0x7f08006f
 int id btn_cart_back 0x7f080070
+int id btn_checkout_back 0x7f08021b
+int id btn_checkout_pay 0x7f08021c
 int id btn_log_out 0x7f080071
 int id btn_login 0x7f080072
 int id btn_login_reg 0x7f080073
@@ -2689,6 +2692,7 @@ int id btn_register 0x7f080074
 int id btn_register_reg 0x7f080075
 int id btn_shop 0x7f080076
 int id btn_shop_back 0x7f080077
+int id btn_store_back 0x7f08021e
 int id buttonPanel 0x7f080078
 int id cache_measures 0x7f080079
 int id callMeasure 0x7f08007a
@@ -3075,6 +3079,7 @@ int id title_template 0x7f0801f6
 int id toggle 0x7f0801f7
 int id top 0x7f0801f8
 int id topPanel 0x7f0801f9
+int id total 0x7f08021d
 int id touch_outside 0x7f0801fa
 int id transitionToEnd 0x7f0801fb
 int id transitionToStart 0x7f0801fc
