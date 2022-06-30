@@ -28,8 +28,9 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/panel">
+        android:layout_height="542dp"
+        android:layout_below="@+id/panel"
+        android:layout_marginTop="-2dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
@@ -42,19 +43,27 @@
 
     <Button
         android:id="@+id/btn_store_back"
-        android:text="back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="650dp"
-        android:layout_marginLeft="25dp"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="33dp"
+        android:text="back" />
 
     <Button
         android:id="@+id/btn_go_to_cart"
-        android:text="Go to cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="650dp"
-        android:layout_marginLeft="250dp"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="33dp"
+        android:layout_toEndOf="@+id/btn_store_back"
+        android:text="Go to cart" />
 
 
 </RelativeLayout>

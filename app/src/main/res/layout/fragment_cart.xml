@@ -7,13 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".CartFragment">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center|top"
+        android:layout_marginStart="145dp"
         android:text="Cart"
         android:textSize="50dp" />
-
 
     <Button
         android:id="@+id/add_bread"
@@ -36,8 +37,8 @@
         android:id="@+id/remove_bread"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="220dp"
+        android:layout_marginTop="100dp"
         android:text="Remove Bread" />
 
     <Button
@@ -144,16 +145,24 @@
         android:id="@+id/checkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="640dp"
+        android:layout_marginBottom="43dp"
+        android:layout_toEndOf="@+id/btn_cart_back"
         android:text="Checkout" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_cart_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="640dp"
+        android:layout_marginBottom="43dp"
         android:text="back" />
 
 </RelativeLayout>
